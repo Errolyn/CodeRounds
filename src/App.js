@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from "./home/HomePage"
 import Header from "./siteComponents/Header"
 import Signup from "./signup/SignupPage"
+import Contact from "./contact/ContactPage"
 import './App.css';
 
 const Main = () => (
@@ -10,6 +11,7 @@ const Main = () => (
     <Route exact path='/' component={Home}></Route>
     <Route exact path='/home' component={Home}></Route>
     <Route exact path='/signup' component={Signup}></Route>
+    <Route exact path='/contact' component={Contact}></Route>
   </Switch>
 );
 

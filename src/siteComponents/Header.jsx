@@ -8,6 +8,7 @@ class Header extends Component {
         <header className="App-header">
           <Link to='/'><img src={logo} className="App-logo" alt="logo" /></Link>
           <Link to='/signup'>Signup</Link>
+          <Link to='/contact'>Contact Us</Link>
         </header>
       );
     }
