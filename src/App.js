@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from "./home/HomePage"
 import Header from "./siteComponents/Header"
+import Footer from "./siteComponents/Footer"
 import Signup from "./signup/SignupPage"
 import Contact from "./contact/ContactPage"
 import './App.css';
@@ -21,6 +22,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Main />
+        <Footer />
       </div>
     );
   }
