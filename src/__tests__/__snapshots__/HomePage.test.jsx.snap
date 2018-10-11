@@ -2,13 +2,60 @@
 
 exports[`renders the home page correctly 1`] = `
 <div>
-  <h2>
+  <h1>
     Welcome to CodeRounds
-  </h2>
+  </h1>
   <div>
     <p>
-      This is what you should know about CodeRounds
+      This a place to practice coding skills while working with others on a project. We can either group you with people of simular interests or you can build a group and participate together.
     </p>
+  </div>
+  <div>
+    <h2>
+      Rules
+    </h2>
+    <ul>
+      <li>
+        Add a small addition to the content you're working on to get you closer to completing your code task
+      </li>
+      <li>
+        Respect the intent of code written before you, only make changes as necessary to integrate the new code
+      </li>
+      <li>
+        Finish and submit your code within the time limit set by your group
+      </li>
+      <li>
+        Groups consist of two or more people
+      </li>
+      <li>
+        If you get stuck, leave a note with what you were trying to do and submit
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h2>
+      Code of Conduct
+    </h2>
+    <p>
+      CodeRounds is dedicated to providing a safe and welcoming environment for everybody to grow and learn in a collaborative setting. Treat each other with respect and graciousness. We believe that diverse thinking leads to better answers. We eagerly welcome all people regardless of an individual's race, color, religion, veteran status, national origin, ancestry, pregnancy status, sex, gender identity or expression, age, marital status, mental or physical ability, medical condition, personal appearance, sexual orientation or any other characteristics protected by law.
+    </p>
+    <h3>
+      By attending Codebytes you are agreeing to the following:
+    </h3>
+    <ul>
+      <li>
+        You will not engage in harassing or discriminatory behavior.
+      </li>
+      <li>
+        You will credit everyone who helped create the code you worked on.
+      </li>
+      <li>
+        You will be respectful of people at all skill levels and learning styles.
+      </li>
+    </ul>
+  </div>
+  <div>
+    Filler text here
   </div>
 </div>
 `;
