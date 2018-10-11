@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Rules from '../contentComponents/RulesContent'
+import Rules from '../contentComponents/RulesContent';
+import CodeOfConduct from '../contentComponents/CodeOfConductContent'
 
 
 class Home extends Component {
@@ -13,7 +14,7 @@ class Home extends Component {
             </p>
           </div>
           <Rules />
-          <h2>Code of Conduct</h2>
+          <CodeOfConduct />
           <div>Filler text here</div>
         </div>
 
