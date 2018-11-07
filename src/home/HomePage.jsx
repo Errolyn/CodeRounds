@@ -17,7 +17,6 @@ class Home extends Component {
           <CodeOfConduct />
           <div>Filler text here</div>
         </div>
-
       );
     }
   }
